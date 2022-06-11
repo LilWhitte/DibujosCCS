@@ -1,0 +1,56 @@
+html{
+    background: rgb(82, 88, 95);
+}
+
+.cajita{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: dotted 10px rosybrown;
+    margin: 15px;
+}
+
+.cajita.especial{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border: dotted 10px black;
+    margin: 15px;
+    position: sticky ;
+    top: 0px;
+}
+
+.cajon.div{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(226, 101, 101);
+    border-radius: 10%;
+    position: absolute;
+    bottom: 0px;
+    transform: rotate(15deg);
+   
+}
+
+.cajita1{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(83, 59, 162);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.cajita2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(48, 163, 102);
+    position: absolute;
+    top: 0px;
+    z-index: 1;
+}
+.cajita3{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(216, 222, 40);
+    position: absolute;
+    top: 0px;
+}
